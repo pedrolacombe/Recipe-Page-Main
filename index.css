@@ -1,0 +1,248 @@
+body {
+    background-color: hsl(14, 80%, 90%);
+
+    display: flex;
+    justify-content: center;
+
+    font-family: "Young Serif", serif;
+}
+
+
+.card {
+    background-color: #ffffff;
+
+    width: 595px;
+
+    border-radius: 15px;
+    padding: 25px 10px;
+}
+
+.img {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+
+    border-radius: 15px;
+
+    overflow: hidden;
+
+    width: 55vh;
+    height: 25vh;
+
+}
+
+.RecipeName {
+    padding-left: 35px;
+    padding-top: 1px;
+}
+
+.description {
+    font-size: small;
+}
+
+.time {
+    display: block;
+    justify-content: center;
+    padding: 5px 55px;
+}
+
+.box {
+    width: 500px;
+    padding: 25px;
+
+    border-radius: 25px;
+}
+
+.time {
+    background-color: rgba(255, 192, 203, 0.2);
+    border: 15px;
+
+    border-radius: 25px;
+}
+
+.pt {
+    color: hsl(332, 88%, 26%);
+}
+
+.list {
+    padding-left: 25px;
+}
+
+.T {
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+
+.T::marker {
+    color: hsl(332, 88%, 26%);
+}
+
+.P {
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+
+.P::marker {
+    color: hsl(332, 88%, 26%);
+}
+
+.C {
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+
+.C::marker {
+    color: hsl(332, 88%, 26%);
+}
+
+.In {
+    padding-left: 35px;
+    padding-top: 1px;
+}
+
+.I {
+    color: hsl(14, 45%, 36%);
+}
+
+.I_List {
+    padding-left: 20px;
+}
+
+.First {
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
+
+.Second {
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
+
+.Third {
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
+
+.Fourth {
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
+
+.Fifth {
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
+
+.Sixth {
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
+
+.Linha {
+    border-bottom: 1px solid rgb(202, 202, 202);
+}
+
+.I_List2 {
+    padding-left: 20px;
+    list-style-type: decimal;
+
+    font-size: 14.5px;
+    margin-right: 25px;
+}
+
+.First::marker {
+    color: hsl(14, 45%, 36%);
+    ;
+}
+
+.Second::marker {
+    color: hsl(14, 45%, 36%);
+    ;
+}
+
+.Third::marker {
+    color: hsl(14, 45%, 36%);
+    ;
+}
+
+.Fourth::marker {
+    color: hsl(14, 45%, 36%);
+    ;
+}
+
+.Fifth::marker {
+    color: hsl(14, 45%, 36%);
+    ;
+}
+
+.Sixth::marker {
+    color: hsl(14, 45%, 36%);
+    ;
+}
+
+.Nutrition {
+    padding-left: 35px;
+    padding-top: 15px;
+}
+
+.N {
+    color: hsl(14, 45%, 36%);
+}
+
+.List {
+    padding-left: 20px;
+    list-style-type: none;
+}
+
+.F {
+    display: flex;
+    justify-content: space-between;
+
+    padding-left: 15px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+
+    border-bottom: 1px solid rgb(202, 202, 202);
+}
+
+.Values {
+    padding-right: 220px;
+    color: hsl(14, 45%, 36%);
+}
+
+
+@media (max-width: 768px) {
+
+    .card {
+        padding-top: 0%;
+        padding-right: 0%;
+        border-radius: 0%;
+    }
+
+    .RecipeName{
+        font-size: 20px;
+
+        padding-left: 45px;
+    }
+
+    .img {
+        border-radius: 0px;
+
+        height: 200px;
+    }
+
+    .In {
+        padding-left: 55px;
+        padding-top: 1px;
+    }
+
+    .Nutrition {
+        padding-left: 55px;
+        padding-top: 1px;
+    }
+
+    .Values {
+        padding-right: 120px;
+        
+    }
+}
