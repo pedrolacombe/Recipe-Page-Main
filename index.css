@@ -46,7 +46,7 @@ body {
     padding: 5px 55px;
 }
 
-.box {
+.boxcc {
     width: 500px;
     padding: 25px;
 
@@ -210,6 +210,14 @@ body {
     color: hsl(14, 45%, 36%);
 }
 
+.description, .list,.I_List, .I_List2, .Info, h5{
+   color:  hsl(60, 1%, 63%);
+   font-size: 15px;
+}
+
+.Strong{
+    color: hsl(12, 5%, 20%);
+}
 
 @media (max-width: 768px) {
 
@@ -219,16 +227,41 @@ body {
         border-radius: 0%;
     }
 
-    .RecipeName{
+    .RecipeName {
         font-size: 20px;
 
-        padding-left: 45px;
+        padding: 0px 65px;
     }
 
     .img {
         border-radius: 0px;
 
         height: 200px;
+    }
+
+    .time {
+        padding: 10px 10px;
+    }
+
+    .boxcc {
+        width: 350px;
+        padding-left: 70px;
+    }
+
+    .I{
+        padding-left: 25px;
+    }
+
+    .I_List, .I_List2{
+        padding-left: 55px;
+    }
+
+    .list {
+        padding-left: 55px;
+    }
+
+    .pt{
+        padding-left: 25px;
     }
 
     .In {
@@ -241,8 +274,16 @@ body {
         padding-top: 1px;
     }
 
+    h5{
+        padding: 0px 10px;
+    }
+
     .Values {
         padding-right: 120px;
-        
+
     }
+
+    .description, .list,.I_List, .I_List2, .Info, h5{
+        font-size: 18px;
+     }
 }
